@@ -1,0 +1,30 @@
+{
+    "name": "joanhey/ngx-php-runtime",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Joanhey\\NgxPhpRuntime\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joanhey"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/runtime": "^6.0",
+        "symfony/http-kernel": "^6.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2",
+        "vimeo/psalm": "^5.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "symfony/runtime": true
+        }
+    }
+}
