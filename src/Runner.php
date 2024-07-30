@@ -73,7 +73,7 @@ class Runner implements RunnerInterface
             if (\in_array($key, ['CONTENT_TYPE', 'CONTENT_LENGTH'])) {
                 $server[$key] = $value;
             } else {
-                $server['HTTP_'.$key] = $value;
+                $server["HTTP_$key"] = $value;
             }
         }
 
