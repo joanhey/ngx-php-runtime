@@ -59,7 +59,7 @@ class Runner implements RunnerInterface
             'REMOTE_ADDR'        => \ngx_request_remote_addr(),
             'REMOTE_PORT'        => \ngx_request_remote_port(),
             'REQUEST_URI'        => \ngx_request_uri(),
-            //'QUERY_STRING'       => \ngx_request_query_string(),
+            'QUERY_STRING'       => \ngx_request_query_string(),
             'REQUEST_METHOD'     => \ngx_request_method(),
             'SERVER_PROTOCOL'    => \ngx_request_server_protocol(),
             'SERVER_NAME'        => \ngx_request_server_name(),
