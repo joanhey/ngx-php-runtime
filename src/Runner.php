@@ -77,7 +77,7 @@ class Runner implements RunnerInterface
             }
         }
 
-        return array_merge($server, $_SERVER);
+        return $server;
     }
 
     private static function buildCookies(): array
