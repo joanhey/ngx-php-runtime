@@ -86,8 +86,8 @@ class Runner implements RunnerInterface
             return [];
         }
 
-        \parse_str(\str_replace('; ', '&', \ngx_cookie_get_all()), $_COOKIE);
+        \parse_str(\str_replace('; ', '&', \ngx_cookie_get_all()), $cookies);
 
-        return $_COOKIE;
+        return $cookies;
     }
 }
