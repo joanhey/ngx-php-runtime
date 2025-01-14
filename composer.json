@@ -14,8 +14,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "symfony/runtime": "^6.0",
-        "symfony/http-kernel": "^6.0"
+        "symfony/runtime": "^7.0",
+        "symfony/http-kernel": "^7.0"
     },
     "require-dev": {
         "pestphp/pest": "^2",
